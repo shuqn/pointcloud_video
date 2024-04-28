@@ -5,7 +5,7 @@ windows 10
 python 3.10  
 open3d-python  
 ## How to use it  
-Unzip tile data to /data/longdress/tiles  
+Unzip tile data(releases) to /data/longdress/tiles  
 You should run both the downloader and the player simultaneously.  
 `python player.py`  
 `python downloader.py`  
