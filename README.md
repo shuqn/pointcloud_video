@@ -5,10 +5,11 @@ windows 10
 python 3.10  
 open3d-python  
 ## How to use it  
+Unzip tile data to /data/longdress/tiles  
 You should run both the downloader and the player simultaneously.  
 `python player.py`  
 `python downloader.py`  
 The downloader invokes a bitrate adaptation algorithm in real-time to determine the download target, while the player sequentially plays the video content from the buffer.  
-Given the file size limitation, this is just an example program. You can modify the contents of the data folder to enable the playback of additional videos.
+Given the file size limitation, this is just an example program. You can modify the contents of the data folder to enable the playback of additional videos.  
 An example video is point_1.gif
 ![image](https://github.com/shuqn/pointcloud_video/blob/main/point_1.gif)
