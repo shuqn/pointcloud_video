@@ -1,5 +1,6 @@
 # pointcloud_video 
-This is a prototype designed for streaming point cloud data. It consists of two main components: a downloader and a player.
+This is a prototype designed for streaming point cloud data. It consists of two main components: a downloader and a player.  
+An example video is point_1.gif  
 ## Prerequisites 
 windows 10  
 python 3.10  
@@ -16,5 +17,4 @@ The training, testing, and evaluation of four FoV prediction models were conduct
 You can freely replace the desired FoV prediction model in downloader.py  
 ## Evaluation results  
 All results assessment and plotting for various models are located within the pointcloud_video folder.  
-An example video is point_1.gif
 ![image](https://github.com/shuqn/pointcloud_video/blob/main/point_1.gif)
