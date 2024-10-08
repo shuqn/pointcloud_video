@@ -1,0 +1,20 @@
+#此文件用于设置项目的各个超参数和常量，防止不同文件之间不一致
+import math
+QUALITY_LEVELS = 4
+REBUF_PENALTY = 3000  # 1 sec rebuffering -> 3 Mbps
+SMOOTH_PENALTY = 5
+DEFAULT_QUALITY = 0  # default video quality without agent
+RANDOM_SEED = 4224
+INIT_QOE=50
+MULTIPLE_QUALITY_LEVELS=[i*0.75+1 for i in range(QUALITY_LEVELS)]
+F_IN_GOF=30
+TILE_IN_F=12
+TILE_DIVISION=[2,3,2]
+VIDEO_GOF_LEN = 1 #秒
+PACKET_PAYLOAD_PORTION = 0.95
+DECODING_TIME_RATIO=0.
+FRAME=300
+
+
+
+
