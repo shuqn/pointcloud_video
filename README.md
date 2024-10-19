@@ -4,7 +4,7 @@ An example video is point_1.gif
 ## Prerequisites 
 windows 10  
 python 3.10  
-open3d-python  
+open3d-python 0.17.0  
 ## How to use it  
 Unzip tile data(releases) to /data/longdress/tiles  
 You should run both the downloader and the player simultaneously.  
